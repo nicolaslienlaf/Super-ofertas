@@ -75,7 +75,7 @@
     { "id_alimento": 70, "nombre": "Nueces Peladas Cuartos", "marca": "Fruto Seco Bolsa Dorada", "precio_unidad": 2990 },
     { "id_alimento": 71, "nombre": "Semillas de Chía", "marca": "Bolsa Superalimento Omega", "precio_unidad": 1800 },
     { "id_alimento": 72, "nombre": "Semillas de Linaza", "marca": "Fibra Natural Suplemento", "precio_unidad": 1500 },
-    { "id_alimento": 73, "encode_alimento": "Aceite de Canola", "marca": "Botella 1L Menos Saturada", "precio_unidad": 2900 },
+    { "id_alimento": 73, "nombre": "Aceite de Canola", "marca": "Botella 1L Menos Saturada", "precio_unidad": 2900 },
     { "id_alimento": 74, "nombre": "Aceitunas Verdes en Frasco", "marca": "Descorazonadas en Salmuera", "precio_unidad": 1600 },
     { "id_alimento": 75, "nombre": "Margarina Light de Mesa", "marca": "Pote Untable Reducido Grasa", "precio_unidad": 1250 },
     { "id_alimento": 76, "nombre": "Zanahoria Granel Feria", "marca": "Zanahoria Limpia Primera", "precio_unidad": 890 },
