@@ -1,0 +1,19 @@
+{
+  "plataforma": "Super Ofertas API",
+  "estado_servidor": "ONLINE",
+  "ultima_sincronizacion": "01-06-2026",
+  "productos": [
+    { "id_alimento": 41, "nombre": "Pan de molde integral", "marca": "Jumbo Whole Grain", "precio_unidad": 3200 },
+    { "id_alimento": 41, "nombre": "Pan de molde integral", "marca": "Pan Económico Ideal", "precio_unidad": 1900 },
+    { "id_alimento": 42, "nombre": "Pan de masa madre", "marca": "Preparado en Casa / Artesanal", "precio_unidad": 2500 },
+    { "id_alimento": 43, "nombre": "Huevo entero", "marca": "Huevos de Gallina Feliz x12", "precio_unidad": 4200 },
+    { "id_alimento": 43, "nombre": "Huevo entero", "marca": "Huevos Formato Económico x12", "precio_unidad": 2800 },
+    { "id_alimento": 44, "nombre": "Atún al agua", "marca": "Atún Lomitos de Marca", "precio_unidad": 1950 },
+    { "id_alimento": 44, "nombre": "Atún al agua", "marca": "Atún Desmenuzado Líder", "precio_unidad": 1100 },
+    { "id_alimento": 45, "nombre": "Jamón de pavo cocido", "marca": "Jamón Pavo Premium Blister", "precio_unidad": 2800 },
+    { "id_alimento": 45, "nombre": "Jamón de pavo cocido", "marca": "Jamón Pavo Granel", "precio_unidad": 1600 },
+    { "id_alimento": 47, "nombre": "Queso fresco bajo en grasa", "marca": "Queso Fresco San Francisco", "precio_unidad": 2400 },
+    { "id_alimento": 54, "nombre": "Leche descremada 1L", "marca": "Leche Descremada Marca Premium", "precio_unidad": 1150 },
+    { "id_alimento": 54, "nombre": "Leche descremada 1L", "marca": "Leche Descremada Marca Líder", "precio_unidad": 890 }
+  ]
+}
