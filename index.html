@@ -3,33 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DietMarket - Mercado Virtual</title>
+    <title>DietMarket - Tu Supermercado Virtual</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>🛒 DietMarket</h1>
-            <p>Ecosistema de sincronización de precios en la nube para Calcudiett</p>
-        </div>
-    </header>
-    <main class="container">
-        <section class="dashboard-grid">
-            <div class="card">
-                <h3>Estado del Mercado</h3>
-                <p class="status-online">● ONLINE</p>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🛒 DietMarket</div>
+            <div class="search-box">
+                <input type="text" placeholder="Busca tus alimentos saludables o equivalentes...">
+                <button class="search-btn">🔍</button>
             </div>
-            <div class="card">
-                <h3>Endpoint Activo</h3>
-                <p class="code-text">/mercado.json</p>
+            <div class="nav-actions">
+                <span>👤 Mi Cuenta</span>
+                <span class="cart-icon">🛒 <span class="cart-count">0</span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="categories-bar">
+        <div class="container flex-categories">
+            <span class="cat-item active">☰ Categorías</span>
+            <span class="cat-item">🥛 Lácteos y Quesos</span>
+            <span class="cat-item">🍞 Panadería y Carbohidratos</span>
+            <span class="cat-item">🥚 Huevos y Proteínas</span>
+            <span class="cat-item">🍎 Frutas y Verduras</span>
+        </div>
+    </div>
+
+    <main class="container">
+        <section class="promo-banner">
+            <div class="banner-content">
+                <h2>⚡ ¡Cyber DietMarket comenzó! ⚡</h2>
+                <p>Encuentra todas tus pautas nutricionales sincronizadas al mejor precio base.</p>
+                <button class="btn-banner">Descubrir Equivalentes</button>
             </div>
         </section>
-        
-        <section class="table-section">
-            <h2>📦 Catálogo de Productos Disponibles</h2>
+
+        <section class="quick-categories">
+            <h3>Tus categorías favoritas</h3>
+            <div class="circle-grid">
+                <div class="circle-item"><div class="circle-img">🥛</div><span>Lácteos</span></div>
+                <div class="circle-item"><div class="circle-img">🍞</div><span>Carbohidratos</span></div>
+                <div class="circle-item"><div class="circle-img">🥚</div><span>Proteínas</span></div>
+                <div class="circle-item"><div class="circle-img">🐟</div><span>Pescados</span></div>
+                <div class="circle-item"><div class="circle-img">🍎</div><span>Frutas</span></div>
+            </div>
+        </section>
+
+        <section class="vitrina-section">
+            <h3 class="section-title">Recomendados para tu Minuta Nutricional</h3>
             <div class="tienda-grid" id="catalogo-tienda"></div>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2026 DietMarket Ecosistema Integrado. Conectado en tiempo real con Calcudiett.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
