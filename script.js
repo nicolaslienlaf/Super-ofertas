@@ -33,22 +33,22 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
-            catalogo.innerHTML = ""; // Limpia por si acaso
+            catalogo.innerHTML = ""; 
             data.productos.forEach(p => {
                 const card = document.createElement("div");
-                card.className = "producto-card"; // Usa tu clase de CSS para las tarjetas
+                card.className = "producto-card"; 
                 
                 const nombreProducto = p.nombre || "Naranja Jugo Feria";
                 const icono = obtenerIconoAlimento(nombreProducto);
                 
                 card.innerHTML = `
                     <span class="badge-id">Ref #${p.id_alimento}</span>
-                    <div class="product-thumb" style="font-size: 2.5rem; text-align: center; margin: 10px 0;">${icono}</div>
-                    <h4 style="margin: 5px 0; font-size: 1.1rem;">${nombreProducto}</h4>
-                    <p class="marca" style="color: #888; font-size: 0.85rem; margin-bottom: 8px;">${p.marca}</p>
-                    <p class="precio" style="font-weight: bold; color: #ffcc00; margin-bottom: 10px;">$${p.precio_unidad.toLocaleString('es-CL')}</p>
-                    <button class="btn-agregar" style="width: 100%; padding: 8px; background: #ffcc00; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">
-                        Sincronizar API
+                    <div class="product-thumb">${icono}</div>
+                    <h4>${nombreProducto}</h4>
+                    <p class="marca">${p.marca}</p>
+                    <p class="precio">$${p.precio_unidad.toLocaleString('es-CL')}</p>
+                    <button class="btn-agregar">
+                        <span>🛒</span> Sincronizar API
                     </button>
                 `;
                 catalogo.appendChild(card);
